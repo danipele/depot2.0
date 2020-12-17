@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e047b0-49f5-4afd-9ea7-4289e6fab9d0" name="Default Changelist" comment="adding product">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/rails.png" afterDir="false" />
+    <list default="true" id="89e047b0-49f5-4afd-9ea7-4289e6fab9d0" name="Default Changelist" comment="product validation">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/store.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/store.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/store_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/store_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/store_controller_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/angular.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/angular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rails.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rails.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/ruby.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/ruby.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608241316014</updated>
-      <workItem from="1608241317221" duration="4202000" />
+      <workItem from="1608241317221" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="adding product">
       <created>1608243924818</created>
@@ -157,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608243924818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="product validation">
+      <created>1608245973148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608245973148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +231,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding product" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding product" />
+    <MESSAGE value="product validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="product validation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/depot@Development__depot.rcov" NAME="Development: depot Coverage Results" MODIFIED="1608241686383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
