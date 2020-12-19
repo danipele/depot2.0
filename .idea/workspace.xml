@@ -2,30 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e047b0-49f5-4afd-9ea7-4289e6fab9d0" name="Default Changelist" comment="store and page layout">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/carts.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/carts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/carts_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/current_cart.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/carts_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cart.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/_cart.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20201218134300_create_carts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/carts_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/carts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/cart_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/carts_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/03208848-c929-4d16-90aa-a031b1244add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/store.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/carts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/carts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/current_cart.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/current_cart.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/store_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/store_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/carts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/carts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/carts_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/carts_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/controllers/products_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/products_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/store_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/store_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/product_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/product_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +60,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="PERL5_MAIN_SETTINGS" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.products_controller_test">
+  <component name="RunManager" selected="Rails.Development: depot">
     <configuration name="Development: depot" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="depot" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -228,6 +226,37 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_should_create_line_item" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="depot" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/line_items_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_should_create_line_item$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_should_get_index (1)" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="depot" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -250,37 +279,6 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/products_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_should_get_index$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_should_get_index" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="depot" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/store_controller_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_should_get_index$" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
@@ -323,11 +321,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_create_line_item" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.products_controller_test" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_can't_delete_product_i..." />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_index_with_..." />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_index (1)" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_index" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +339,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608241316014</updated>
       <workItem from="1608241317221" duration="7538000" />
-      <workItem from="1608249888618" duration="5848000" />
+      <workItem from="1608249888618" duration="6132000" />
+      <workItem from="1608410571509" duration="3125000" />
+      <workItem from="1608415705464" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="adding product">
       <created>1608243924818</created>
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608284900927</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add cart and line item">
+      <created>1608299966905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608299966905</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,15 +442,24 @@
     <MESSAGE value="store and page layout" />
     <MESSAGE value="config updates" />
     <MESSAGE value="add date, add cache, update currency, add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add date, add cache, update currency, add tests" />
+    <MESSAGE value="add cart and line item" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cart and line item" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="RailsRunConfigurationType">
+        <watch expression="params.require(:line_item)" language="ruby" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/depot@test_product_is_not_valid_w___.rcov" NAME="test_product_is_not_valid_w... Coverage Results" MODIFIED="1608283194639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
-    <SUITE FILE_PATH="coverage/depot@products_controller_test.rcov" NAME="products_controller_test Coverage Results" MODIFIED="1608284805753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
+    <SUITE FILE_PATH="coverage/depot@products_controller_test.rcov" NAME="products_controller_test Coverage Results" MODIFIED="1608413620485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
+    <SUITE FILE_PATH="coverage/depot@test_should_create_line_item.rcov" NAME="test_should_create_line_item Coverage Results" MODIFIED="1608416103864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@product_test.rcov" NAME="product_test Coverage Results" MODIFIED="1608283133911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
-    <SUITE FILE_PATH="coverage/depot@test_can_t_delete_product_i___.rcov" NAME="test_can't_delete_product_i... Coverage Results" MODIFIED="1608299844699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
-    <SUITE FILE_PATH="coverage/depot@Development__depot.rcov" NAME="Development: depot Coverage Results" MODIFIED="1608278963568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
+    <SUITE FILE_PATH="coverage/depot@test_can_t_delete_product_i___.rcov" NAME="test_can't_delete_product_i... Coverage Results" MODIFIED="1608299899754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_product_price_must_be____.rcov" NAME="test_product_price_must_be_... Coverage Results" MODIFIED="1608282665503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
+    <SUITE FILE_PATH="coverage/depot@Development__depot.rcov" NAME="Development: depot Coverage Results" MODIFIED="1608416115574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_get_index__1_.rcov" NAME="test_should_get_index (1) Coverage Results" MODIFIED="1608284624893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_get_index_with____.rcov" NAME="test_should_get_index_with_... Coverage Results" MODIFIED="1608284797688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_image_url.rcov" NAME="test_image_url Coverage Results" MODIFIED="1608282767164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
