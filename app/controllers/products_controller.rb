@@ -40,6 +40,7 @@ class ProductsController < ApplicationController
   def update
     respond_to do |format|
       if @product.update(product_params)
+        @updated_product = @product
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         broadcast_products
       else

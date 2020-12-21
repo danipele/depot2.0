@@ -59,3 +59,16 @@ table {
     }
   }
 }
+
+@keyframes product-highlight {
+  0% {
+    background: #3a3;
+  }
+  100% {
+    background: none;
+  }
+}
+
+.product-highlight {
+  animation: product-highlight 2s;
+}
