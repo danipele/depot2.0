@@ -44,6 +44,7 @@ class ProductsController < ApplicationController
       if @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         format.json { render :show, status: :ok, location: @product }
+        broadcast_products
       else
         format.html { render :edit }
         format.json { render json: @product.errors, status: :unprocessable_entity }
@@ -71,5 +72,10 @@ class ProductsController < ApplicationController
   # Only allow a list of trusted parameters through.
   def product_params
     params.require(:product).permit(:title, :description, :image_url, :price)
+  end
+
+  def broadcast_products
+    @products = Product.all
+    ActionCable.server.broadcast 'products', html: render_to_string('store/index', layout: false)
   end
 end
