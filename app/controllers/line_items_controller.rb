@@ -1,6 +1,6 @@
 class LineItemsController < ApplicationController
   include CurrentCart
-  before_action :set_cart, :build_line_item_relations, only: [:create]
+  before_action :set_cart, only: %i[create update destroy]
   before_action :set_line_item, only: %i[show edit update destroy]
 
   # GET /line_items
@@ -26,34 +26,29 @@ class LineItemsController < ApplicationController
   # POST /line_items
   # POST /line_items.json
   def create
+    product = Product.find(params[:product_id])
+    @line_item = @cart.add_product_to_cart(product)
     session[:count_index_accessed] = 0
     respond_to do |format|
       if @line_item.save
-        format.html { redirect_to store_index_url }
-        format.js { @current_item = @line_item }
-        format.json { render :show, status: :created, location: @line_item }
+        @current_item = @line_item
+        format.js { render file: 'carts/show.js.coffee' }
       else
         format.html { render :new }
-        format.json { render json: @line_item.errors, status: :unprocessable_entity }
       end
     end
-  end
-
-  def build_line_item_relations
-    product = Product.find(params[:product_id])
-    @line_item = @cart.add_product_to_cart(product)
   end
 
   # PATCH/PUT /line_items/1
   # PATCH/PUT /line_items/1.json
   def update
+    @line_item.quantity -= 1
     respond_to do |format|
       if @line_item.update(line_item_params)
-        format.html { redirect_to @line_item, notice: 'Line item was successfully updated.' }
-        format.json { render :show, status: :ok, location: @line_item }
+        @current_item = @line_item
+        format.js { render file: 'carts/show.js.coffee' }
       else
         format.html { render :edit }
-        format.json { render json: @line_item.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -63,8 +58,7 @@ class LineItemsController < ApplicationController
   def destroy
     @line_item.destroy
     respond_to do |format|
-      format.html { redirect_to @line_item.cart, notice: 'Products deleted from the cart.' }
-      format.json { head :no_content }
+      format.js { render file: 'carts/show.js.coffee' }
     end
   end
 

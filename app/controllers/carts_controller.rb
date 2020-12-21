@@ -30,10 +30,8 @@ class CartsController < ApplicationController
     respond_to do |format|
       if @cart.save
         format.html { redirect_to @cart, notice: 'Cart was successfully created.' }
-        format.json { render :show, status: :created, location: @cart }
       else
         format.html { render :new }
-        format.json { render json: @cart.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -44,10 +42,8 @@ class CartsController < ApplicationController
     respond_to do |format|
       if @cart.update(cart_params)
         format.html { redirect_to @cart, notice: 'Cart was successfully updated.' }
-        format.json { render :show, status: :ok, location: @cart }
       else
         format.html { render :edit }
-        format.json { render json: @cart.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -58,8 +54,7 @@ class CartsController < ApplicationController
     @cart.destroy if @cart.id == session[:cart_id]
     session[:cart_id] = nil
     respond_to do |format|
-      format.html { redirect_to store_index_url, notice: 'Your cart is empty.' }
-      format.json { head :no_content }
+      format.js { render :show }
     end
   end
 
@@ -73,7 +68,6 @@ class CartsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to store_index_url, notice: 'Cart unavailable.' }
-      format.json { head :no_content }
     end
   end
 
