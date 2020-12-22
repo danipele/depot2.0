@@ -32,6 +32,7 @@ class LineItemsController < ApplicationController
     respond_to do |format|
       if @line_item.save
         @current_item = @line_item
+        format.html { redirect_to store_index_url }
         format.js { render file: 'carts/show.js.coffee' }
       else
         format.html { render :new }
