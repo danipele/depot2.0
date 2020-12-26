@@ -3,6 +3,7 @@ class OrdersController < ApplicationController
   before_action :set_cart, only: %i[new create]
   before_action :ensure_cart_is_not_empty, only: :new
   before_action :set_order, only: %i[show edit update destroy]
+  skip_before_action :authorize, only: %i[new create]
 
   # GET /orders
   # GET /orders.json
@@ -12,8 +13,7 @@ class OrdersController < ApplicationController
 
   # GET /orders/1
   # GET /orders/1.json
-  def show
-  end
+  def show; end
 
   # GET /orders/new
   def new
@@ -22,8 +22,7 @@ class OrdersController < ApplicationController
   end
 
   # GET /orders/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /orders
   # POST /orders.json
