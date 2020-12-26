@@ -3,7 +3,6 @@ class OrdersController < ApplicationController
   before_action :set_cart, only: %i[new create]
   before_action :ensure_cart_is_not_empty, only: :new
   before_action :set_order, only: %i[show edit update destroy]
-  skip_before_action :authorize, only: %i[new create]
 
   # GET /orders
   # GET /orders.json
@@ -35,7 +34,7 @@ class OrdersController < ApplicationController
         Cart.destroy(session[:cart_id])
         session[:cart_id] = nil
         ChargeOrderJob.perform_later(@order, pay_type_params.to_h)
-        format.html { redirect_to store_index_url, notice: 'Thank you for your order.' }
+        format.html { redirect_to store_index_url(locale: I18n.locale), notice: I18n.t('.thanks') }
         format.json { render :show, status: :created, location: @order }
         @disable_checkout = false
       else
@@ -50,7 +49,7 @@ class OrdersController < ApplicationController
   def update
     respond_to do |format|
       if @order.update(order_params)
-        format.html { redirect_to @order, notice: 'Order was successfully updated.' }
+        format.html { redirect_to @order, notice: t('.order_updated') }
         format.json { render :show, status: :ok, location: @order }
       else
         format.html { render :edit }

@@ -1,5 +1,5 @@
 <h1>Welcome</h1>
 <p>
-  It's <%= Time.now %>.
-  We have <%= pluralize(@total_orders, "order") %>.
+  <%= t('.its') %> <%= Time.now %>.
+  <%= t('.we_have') %> <%= @total_orders %> <%= t('.orders') %>.
 </p>

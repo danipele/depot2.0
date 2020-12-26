@@ -55,6 +55,7 @@
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.13.1, rbenv: 2.5.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, rbenv: 2.5.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.5, rbenv: 2.5.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n-js (v3.8.0, rbenv: 2.5.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.10.1, rbenv: 2.5.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, rbenv: 2.5.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.8.0, rbenv: 2.5.8) [gem]" level="application" />
@@ -114,6 +115,7 @@
         <option value="controller" />
         <option value="generator" />
         <option value="helper" />
+        <option value="i18n:js:config" />
         <option value="integration_test" />
         <option value="jbuilder" />
         <option value="job" />
@@ -138,6 +140,7 @@
         <option value="controller" />
         <option value="generator" />
         <option value="helper" />
+        <option value="i18n:js:config" />
         <option value="integration_test" />
         <option value="jbuilder" />
         <option value="job" />
@@ -281,6 +284,15 @@
           <RakeTaskImpl id="dev">
             <subtasks>
               <RakeTaskImpl description="Toggle development mode caching on/off" fullCommand="dev:cache" id="cache" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="i18n">
+            <subtasks>
+              <RakeTaskImpl id="js">
+                <subtasks>
+                  <RakeTaskImpl description="Export translations to JS file(s)" fullCommand="i18n:js:export" id="export" />
+                </subtasks>
+              </RakeTaskImpl>
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl description="Print out all defined initializers in the order they are invoked by Rails" fullCommand="initializers" id="initializers" />

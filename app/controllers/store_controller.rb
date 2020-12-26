@@ -4,11 +4,15 @@ class StoreController < ApplicationController
   skip_before_action :authorize
 
   def index
-    @products = Product.order(:title)
-    if session[:count_index_accessed].nil?
-      session[:count_index_accessed] = 0
+    if params[:set_locale]
+      redirect_to store_index_url(locale: params[:set_locale])
     else
-      session[:count_index_accessed] += 1
+      @products = Product.order(:title).where(locale: I18n.locale)
+      if session[:count_index_accessed].nil?
+        session[:count_index_accessed] = 0
+      else
+        session[:count_index_accessed] += 1
+      end
     end
   end
 end

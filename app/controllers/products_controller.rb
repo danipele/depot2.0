@@ -25,6 +25,7 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     @product = Product.new(product_params)
+    @product.locale = I18n.locale
 
     respond_to do |format|
       if @product.save
@@ -38,6 +39,7 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
   def update
+    @product.locale = I18n.locale
     respond_to do |format|
       if @product.update(product_params)
         @updated_product = @product

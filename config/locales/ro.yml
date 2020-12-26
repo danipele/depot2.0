@@ -1,0 +1,77 @@
+ro:
+  layouts:
+    application:
+      title: "Raftul pragmatic"
+      home: "Acasa"
+      questions: "Intrebari"
+      news: "Noutati"
+      contact: "Contact"
+  store:
+    index:
+      title_html: "Catalogul tau pragmatic"
+      times: "ori"
+      accessed: "accesat de"
+      add_html: "Adauga in cos"
+  carts:
+    cart:
+      title: "Cosul tau"
+      empty: "Goleste cosul"
+      checkout: "Cumpara"
+      total: "Total"
+      confirm: "Esti sigur?"
+  number:
+    currency:
+      format:
+        unit: "RON"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%n %u"
+  orders:
+    new:
+      legend: "Te rog introdu datele"
+    form:
+      name: "Nume"
+      address_html: "Adresa"
+      email: "E-mail"
+      pay_type: "Platesti cu"
+      pay_prompt_html: "Selecteaza o metoda de plata"
+      submit: "Finalizeaza comanda"
+      pay_types:
+        check: "Cec"
+        credit_card: "Credit Card"
+        purchase_order: "Comanda de achizitie"
+      check_pay_type:
+        routing_number: "RTN #"
+        account_number: "Cont #"
+      credit_card_pay_type:
+        cc_number: "CC #"
+        expiration_date: "Expira la"
+      purchase_order_pay_type:
+        po_number: "NR #"
+  activerecord:
+    errors:
+      messages:
+        inclusion: "nu este inclus in lista"
+        blank: "nu poate fi lasat necompletat"
+    models:
+      order: "comanda"
+    attributes:
+      order:
+        address: "Adresa"
+        name: "Nume"
+        email: "E-mail"
+        pay_type: "Metoda de plata"
+  errors:
+    template:
+      body: "Sunt probleme cu urmatoarele campuri:"
+      header:
+        one: "o eroare impiedica acest %{model} din a fi salvat"
+        other: "%{count} erori impiedica acest %{model} din a fi salvat"
+  thanks: "Va multumim pentru comanda"
+  order_updated: "Comanda actualizata cu succes."
+  admin:
+    index:
+      its: "Este"
+      we_have: "Avem"
+      orders: "comenzi"

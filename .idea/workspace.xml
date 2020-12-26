@@ -2,53 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e047b0-49f5-4afd-9ea7-4289e6fab9d0" name="Default Changelist" comment="store and page layout">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/sessions.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/sessions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/admin_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/admin_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/create.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/destroy.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20201226143820_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/admin_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/users_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/locale_switcher.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/i18n.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/ro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20201226212606_add_locale_to_product.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/translations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/depot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/depot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/carts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/carts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/store_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/store_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/PayTypeSelector/CheckPayType.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/CheckPayType.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/PayTypeSelector/CreditCardPayType.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/CreditCardPayType.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/PayTypeSelector/PurchaseOrderPayType.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/PurchaseOrderPayType.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/carts/_cart.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/carts/_cart.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/line_items/_line_item.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/line_items/_line_item.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/orders/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/orders/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +90,7 @@
       <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_ask_for_login_e...">
+  <component name="RunManager" selected="Rails.Development: depot">
     <configuration name="Development: depot" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="depot" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -379,7 +369,7 @@
       <workItem from="1608241317221" duration="7538000" />
       <workItem from="1608249888618" duration="6132000" />
       <workItem from="1608410571509" duration="3125000" />
-      <workItem from="1608415705464" duration="64727000" />
+      <workItem from="1608415705464" duration="77209000" />
     </task>
     <task id="LOCAL-00001" summary="adding product">
       <created>1608243924818</created>
@@ -486,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608740389830</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add users">
+      <created>1609005446519</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609005446519</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,14 +560,28 @@
     <MESSAGE value="add react files for multi types of payment on fe" />
     <MESSAGE value="add system tests" />
     <MESSAGE value="add mailer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mailer" />
+    <MESSAGE value="add users" />
+    <option name="LAST_COMMIT_MESSAGE" value="add users" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/products_controller.rb</url>
+          <line>41</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="RailsRunConfigurationType">
         <watch expression="params.require(:line_item)" language="ruby" />
         <watch expression="session[:cart_id]" language="ruby" />
-        <watch expression="params[:id]" language="ruby" />
+        <watch expression="params[:set_locale]" language="ruby" />
+        <watch expression="params[:locale]" language="ruby" />
         <watch expression="@line_item.quantity" language="ruby" />
         <watch expression="@cart.line_items" language="ruby" />
         <watch expression="PayTypes.where(name: @order.pay_type)" language="ruby" />
@@ -608,12 +619,13 @@
     <SUITE FILE_PATH="coverage/depot@products_controller_test.rcov" NAME="products_controller_test Coverage Results" MODIFIED="1608413620485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_destroy_cart.rcov" NAME="test_should_destroy_cart Coverage Results" MODIFIED="1608482844523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_check_order.rcov" NAME="test_check_order Coverage Results" MODIFIED="1608740141778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
+    <SUITE FILE_PATH="coverage/depot@test_should_ask_for_login_e___.rcov" NAME="test_should_ask_for_login_e... Coverage Results" MODIFIED="1609004919731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_product_attributes_mus___.rcov" NAME="test_product_attributes_mus... Coverage Results" MODIFIED="1608282613624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_prompt_for_login.rcov" NAME="test_should_prompt_for_login Coverage Results" MODIFIED="1609004007227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_ask_for_login_a___.rcov" NAME="test_should_ask_for_login_a... Coverage Results" MODIFIED="1609004654633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_get_new.rcov" NAME="test_should_get_new Coverage Results" MODIFIED="1608592424502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_update_line_item.rcov" NAME="test_should_update_line_item Coverage Results" MODIFIED="1608479562066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
-    <SUITE FILE_PATH="coverage/depot@Development__depot.rcov" NAME="Development: depot Coverage Results" MODIFIED="1609003262139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
+    <SUITE FILE_PATH="coverage/depot@Development__depot.rcov" NAME="Development: depot Coverage Results" MODIFIED="1609024151140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_ask_for_login.rcov" NAME="test_should_ask_for_login Coverage Results" MODIFIED="1609004626856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_get_index__1_.rcov" NAME="test_should_get_index (1) Coverage Results" MODIFIED="1608284624893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
     <SUITE FILE_PATH="coverage/depot@test_should_get_index_with____.rcov" NAME="test_should_get_index_with_... Coverage Results" MODIFIED="1608284797688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot" />
